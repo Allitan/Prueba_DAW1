@@ -30,13 +30,15 @@ const styles = StyleSheet.create({
         marginBottom: 10,
     },
     lista: {
-        maxHeight: 150,
+        maxHeight: 180,
         borderWidth: 1,
         borderColor: '#ccc',
         padding: 10,
+        marginBottom: 20,
         width: 300,
     },
     item: {
         fontSize: 16,
+        marginBottom: 5
     },
 });
