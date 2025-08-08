@@ -7,8 +7,10 @@ import PartidasComponent from './Componentes/partidasComponen';
 export default function App() {
   return (
     <View style={styles.container}>
+      <JuegoProvider>
       <JuegoComponent/>
       <PartidasComponent/>
+      </JuegoProvider>
       <StatusBar style="auto" />
     </View>
   );
